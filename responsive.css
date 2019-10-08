@@ -1,0 +1,65 @@
+@media screen and (max-width: 980px) {
+    .logo-aria{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .login-aria{
+        
+       width: 464px;
+        float: none;
+        margin: 15px auto;    
+        
+    }
+    
+    .login-aria form{
+        width: 100%;
+        margin: auto;
+        float: none;   
+        
+    }
+    .left-area p{
+        width: 100%;
+    }
+    .left-area {
+        width: 100%;
+        float: left;
+    }
+    .right-area{
+        width: 100%;
+        float: left;
+    }
+}
+    
+    
+    @media screen and (max-width: 768px) {
+        .login-aria .email,
+        .login-aria .password,
+        .login-aria .login{
+          float:none;
+         margin-right: 0px;
+    }
+    .login-aria input[type="text"],
+        .login-aria input[type="password"]{
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .login-aria input[type="submit"]{
+            margin-top: 10px;
+        }
+        .login-aria{
+            width: 100%;
+        }
+    
+    }
+    
+    
+    @media screen and (max-width: 480px){
+
+        .container {
+            width: 80%;
+        }
+    }
+    
+  

@@ -1,0 +1,318 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-color: #3B5998;
+    overflow:hidden;
+    padding: 6px 0;
+}
+
+.container{
+    width: 65%;
+    margin:auto;
+    max-width: 1000%;
+}
+
+.logo-aria{
+    width: 30%;
+    float:left;
+
+    
+}
+.logo-aria img {
+    width: 160px;
+    margin-top: 20px;
+}
+
+.login-aria{
+    
+    width:70%;
+    float:left;
+    color: white;
+}
+
+
+
+.login-aria form{
+    float: right;
+}
+
+.login-aria label,.login-aria input{
+    display: block;
+}
+.login-aria .email,
+.login-aria .password,
+.login-aria .login{
+    float:left;
+    margin-right: 15px;
+}
+
+.login-aria label {
+    font-size: 14px;
+    
+}
+.login-aria .login{
+    margin-right: 0;
+}
+
+
+.login-aria input[type="text"],
+.login-aria input[type="password"] {
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 300;
+    padding:2px 5px;
+}
+
+
+.login-aria .password a{
+    text-decoration: none;
+    color: #9cb4d8;
+    font-size:12px;
+}
+
+.login-aria .password:hover a{
+    text-decoration:underline;
+}
+.login input[type="submit"]{
+    background-color:#4267b2;
+    border: 1px solid #29487d;
+    color: white;
+    padding: 3px 8px;
+    margin-top: 18px;
+}
+
+   /* End area*/
+
+.signup-area{
+    background: linear-gradient(white, #D3D8E8);
+    padding: 20px 0px;
+}
+    .signup-area::after{
+        content: '';
+        clear:both;
+        display: block;
+    }
+    
+    .left-area{
+        width: 55%;
+        float: left;
+    }
+    
+    .left-area p{
+       font-size: 20px;
+        color: #0e385f;
+        font-weight: 600;
+        width: 90%;
+    }
+    .left-area img{
+        width: 100%;
+    }
+    
+
+    .right-area{
+        width: 45%;
+        float: left;
+        
+    }
+
+        .right-area h2{
+        font-size: 33px;
+        color: #333;
+        margin: 0;
+    }
+
+    .right-area h4{
+    
+    font-size: 19px
+        color: #1d2129;
+    font-weight: 400;
+    margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+.right-area input[type="text"],
+.right-area input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.full-name {
+    
+   overflow: hidden;
+    
+}
+
+.first-name{
+    width: 48%;
+    float: left;
+    margin-right: 4%; 
+
+}
+
+.surname{
+    width: 48%;
+    float: left;
+    
+  }
+
+.birtday{
+    
+}
+
+.birthday h4{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.birth-date{
+    overflow: hidden;
+    
+}
+
+.birth-date select{
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+} 
+
+.gender {
+    margin:10px 0;
+}
+
+.gender lable{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+    
+}
+
+.text-box{
+    margin-bottom: 20px;
+}
+
+.text-box p {
+    font-size: 13px;
+    color: #777;
+    width: 85%
+}
+
+.text-box a{
+    text-decoration:none;
+    color: #365899;
+}
+
+.text-box a:hover{
+    text-decoration: underline;
+}
+
+
+.btn{
+    margin-bottom: 30px;
+}
+.btn input{
+    background: linear-gradient(#67ae55, #578843);
+    background-color: rgba(0, 0, 0, 0);
+background-color: #69a74e;
+box-shadow: inset 0 1px 1px #a4e388;
+border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px green;
+    border-style: solid;
+    padding: 7px 14px;
+    min-width: 194px;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn input:hover{
+    background: linear-gradient(#578843, #67ae55);
+    cursor: pointer;
+}
+
+.business{
+    font-weight: 600;
+    color: #666;
+}
+.business a{
+    text-decoration: none;
+    color: #365899;
+}
+
+.business a:hover{
+    text-decoration: underline;
+}
+
+/*End signup aria*/
+
+/*start footer aria*/
+
+.footer-area{
+    padding: 30px 0px;
+}
+.footer-area ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-area ul li{
+    display: inline;
+}
+.footer-area ul li a {
+    text-decoration: none;
+    color: #365899;
+    font-size: 13px;
+}
+.footer-area ul li.active a{
+    color: #737373;
+}
+
+
+.footer-area span{
+    color: #737373;
+    font-size: 13px;
+}
+
+.footer-area .top ul li{
+    margin-right: 8px;
+}
+.footer-area .middle ul li{
+    margin-right: 12px;
+}
+
+.footer-area .top ul li:last-child a{
+    border: 1px solid #999;
+    padding: 0 6px;
+}
+footer-aria .top ul li:last-child,
+.footer-area .bottom ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-area hr{
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.footer-area .bottom{
+    margin-top: 20px;
+}
+
+.footer-area ul li:hover a {
+    text-decoration: underline;
+}
+
+/*end footer aria*/
+
+/*GOOD SK SHAKIL YOU DID A GREAT JOB*/
